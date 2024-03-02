@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body> 
+    <!-- Do AAA Rock Paper Scissors -->
+    <section class="container">
+        <h1 class="flexCenter">ROCK PAPER SCISSORS</h1>
+        <div id="flexScoreDiv">
+            <div class="scoreDiv">
+                <p>Your Score:</p>
+                <p id="yourScoreP">0</p>
+            </div>
+            <div class="scoreDiv">
+                <p>Computer Score:</p>
+                <p id="enemyScoreP">0</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 id="chooseTitle" class="flexCenter">Choose your move</h2>
+            <div id="livesLeft" class="flexCenter">
+                <div>Remaining Moves:</div>
+                <div id="lives">&nbsp; 10</div>
+            </div>
+            <div class="flexCenter">
+                <div class="gestureDiv">
+                    <img class="gestureIcon" src=".../../assets/scissors_icons/icons8-scissors-48.png">
+                    <button class="gestureBtn" id="scissorsBtn">Scissors</button>
+                </div>   
+                <div class="gestureDiv">
+                    <img class="gestureIcon" src=".../../assets/paper_icons/icons8-paper-48.png">
+                    <button class="gestureBtn" id="paperBtn">Paper</button>
+                </div>
+                <div class="gestureDiv">
+                    <img class="gestureIcon" src=".../../assets/rock_icons/icons8-rock-48.png">
+                    <button class="gestureBtn" id="rockBtn">Rock</button>
+                </div>
+            </div>
+            <div class="flexCenter" id="result"></div>
+            <button id="reloadBtn">Reload Game.</button>
+        </div>
+    </section>
+   <script src="script.js"></script>
+</body>
+</html>

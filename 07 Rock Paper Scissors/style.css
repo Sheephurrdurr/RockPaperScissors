@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #08173B;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color:#A7B7D9;
+}
+
+.latoFont {
+    font-family:"Lato", sans-serif;
+}
+
+.container {
+    width: 800px;
+    padding: 20px;
+    background-color: #344369;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flexCenter {
+    display:flex;
+    justify-content: center;
+}
+
+#flexScoreDiv {
+    display:flex;
+    justify-content: space-around;
+}
+
+.scoreDiv {
+    text-align: center;
+}
+
+.gestureDiv{
+    padding:25px;
+}
+
+.gestureIcon {
+    display:block;
+    width:100%;
+}
+
+.gestureBtn {
+    background-color: #1d2f57;
+    color:#A7B7D9;
+    border-radius: 5px;
+    border: #172544 1px solid;
+    height:25px;
+    width:65px;
+    cursor:pointer;
+}
+.gestureBtn:hover{
+    background-color: rgb(22, 26, 56);
+}
+
+#result {
+    font-size:25px;
+}
+#reloadBtn {
+    display:none;
+    
+}
+
+
